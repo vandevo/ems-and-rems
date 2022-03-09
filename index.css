@@ -1,7 +1,10 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: black;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #2D2E36;
     color: white;
     font-family: 'Poppins';
 }
@@ -10,21 +13,9 @@ html {
     font-size: 16px;
 }
 
-h1 {
-    margin: 0;
-}
-
 .container {
-    background: rgb(255,255,255,0.2);
-    border-radius: .3em;
-    font-size: 1.5rem;
-    margin: 1em;
-    padding: 1em;
-}
-
-
-@media only screen and (min-width: 500px) {
-    html {
-        font-size: 20px;
-    }
+    background-color: #383A45;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
 }
